@@ -1,0 +1,1240 @@
+
+Processing analysis_MakeAndFit_DCVEne.cpp("92", 4, 0, 3, 1)...
+[32m[info][0m Input run id has parameter index : 11 [90m(DCVAnalysisManager.h:35)[0m
+[32m[info][0m >>>>>READ IN: /Users/jinhyunpark/npl/Analysis/KOTO/DCV/calibration_for_distribution/CosmicTrackedTTree/Run92_Period04_trackMapping_ttree_UT.root [90m(analysis_MakeAndFit_DCVEne.cpp:15)[0m
+[32m[info][0m >>>>>READ IN: tout [90m(analysis_MakeAndFit_DCVEne.cpp:20)[0m
+[32m[info][0m >>>>>READ IN: Run91_Period16_Nx/Run91_Period16_LanGausMpvWithError_UT.root [90m(analysis_MakeAndFit_DCVEne.cpp:15)[0m
+[32m[info][0m >>>>>READ IN: LanGausMpv [90m(analysis_MakeAndFit_DCVEne.cpp:20)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk00_Mod05 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk00_Mod07 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk00_Mod12 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk00_Mod14 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk01_Mod04 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk01_Mod06 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk01_Mod13 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk01_Mod15 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk02_Mod09 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk02_Mod11 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk03_Mod08 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk03_Mod10 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk04_Mod00 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk04_Mod02 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk05_Mod01 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk05_Mod03 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk06_Mod21 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk06_Mod23 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk06_Mod28 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk06_Mod30 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk07_Mod20 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk07_Mod22 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk07_Mod29 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk07_Mod31 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk08_Mod25 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk08_Mod27 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk09_Mod24 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk09_Mod26 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk10_Mod16 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk10_Mod18 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk11_Mod17 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPeak_withIADPTimeCut_trk11_Mod19 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      98.4068
+NDf                       =           51
+Edm                       =  3.80374e-08
+NCalls                    =          215
+Width                     =      19.7315   +/-   0.553525     	 (limited)
+MP                        =      132.771   +/-   0.68908      	 (limited)
+Area                      =       105587   +/-   1071.27      	 (limited)
+GSigma                    =       31.629   +/-   1.1727       	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk00_Mod05 Entries: 10428 FitRange: 60.60~606.00 MPV: 145.48 RelativeErrorMPV: 0.52 FWHM: 119.03 Chi2/NDF: 1.93 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk00_Mod05.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      57.8354
+NDf                       =           51
+Edm                       =  2.76229e-07
+NCalls                    =          178
+Width                     =      19.0041   +/-   0.553088     	 (limited)
+MP                        =      130.276   +/-   0.696757     	 (limited)
+Area                      =       117839   +/-   1140.57      	 (limited)
+GSigma                    =      34.6412   +/-   1.1766       	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk00_Mod07 Entries: 11633 FitRange: 60.61~606.06 MPV: 144.23 RelativeErrorMPV: 0.53 FWHM: 123.17 Chi2/NDF: 1.13 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk00_Mod07.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      112.178
+NDf                       =           84
+Edm                       =  8.27716e-09
+NCalls                    =          137
+Width                     =      27.8733   +/-   0.777389     	 (limited)
+MP                        =      228.942   +/-   0.994437     	 (limited)
+Area                      =       115634   +/-   1110.64      	 (limited)
+GSigma                    =      50.8769   +/-   1.48883      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk00_Mod12 Entries: 11498 FitRange: 97.51~975.12 MPV: 249.43 RelativeErrorMPV: 0.43 FWHM: 180.79 Chi2/NDF: 1.34 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk00_Mod12.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      40.8062
+NDf                       =           59
+Edm                       =  6.55563e-09
+NCalls                    =          214
+Width                     =      20.6974   +/-   0.577823     	 (limited)
+MP                        =      162.012   +/-   0.735411     	 (limited)
+Area                      =       116929   +/-   1119.74      	 (limited)
+GSigma                    =      37.5689   +/-   1.10637      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk00_Mod14 Entries: 11537 FitRange: 70.29~702.92 MPV: 177.15 RelativeErrorMPV: 0.45 FWHM: 133.81 Chi2/NDF: 0.69 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk00_Mod14.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      48.6319
+NDf                       =           58
+Edm                       =  3.20512e-06
+NCalls                    =          218
+Width                     =      20.8707   +/-   0.627577     	 (limited)
+MP                        =       152.84   +/-   0.812159     	 (limited)
+Area                      =       113385   +/-   1116.71      	 (limited)
+GSigma                    =      40.8405   +/-   1.31341      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk01_Mod04 Entries: 11127 FitRange: 68.87~688.73 MPV: 169.24 RelativeErrorMPV: 0.53 FWHM: 141.11 Chi2/NDF: 0.84 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk01_Mod04.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      89.6807
+NDf                       =           65
+Edm                       =  1.27663e-07
+NCalls                    =          158
+Width                     =      23.5571   +/-   0.65566      	 (limited)
+MP                        =      169.666   +/-   0.819857     	 (limited)
+Area                      =       121279   +/-   1149.4       	 (limited)
+GSigma                    =      41.2262   +/-   1.33895      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk01_Mod06 Entries: 12014 FitRange: 76.59~765.85 MPV: 186.28 RelativeErrorMPV: 0.48 FWHM: 149.14 Chi2/NDF: 1.38 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk01_Mod06.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      127.109
+NDf                       =           95
+Edm                       =  1.83204e-07
+NCalls                    =          137
+Width                     =      28.9858   +/-   0.807207     	 (limited)
+MP                        =      268.888   +/-   1.11661      	 (limited)
+Area                      =       113669   +/-   1096.41      	 (limited)
+GSigma                    =      57.4781   +/-   1.51075      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk01_Mod13 Entries: 11271 FitRange: 110.22~1102.25 MPV: 291.95 RelativeErrorMPV: 0.42 FWHM: 197.58 Chi2/NDF: 1.34 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk01_Mod13.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      67.0854
+NDf                       =           62
+Edm                       =  2.86233e-07
+NCalls                    =          155
+Width                     =      22.9492   +/-   0.632641     	 (limited)
+MP                        =      167.613   +/-   0.802273     	 (limited)
+Area                      =       122819   +/-   1152.28      	 (limited)
+GSigma                    =      41.4423   +/-   1.25664      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk01_Mod15 Entries: 12029 FitRange: 73.43~734.29 MPV: 184.31 RelativeErrorMPV: 0.48 FWHM: 147.93 Chi2/NDF: 1.08 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk01_Mod15.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      70.5393
+NDf                       =           81
+Edm                       =  5.12338e-06
+NCalls                    =          138
+Width                     =      32.7825   +/-   2.92153      	 (limited)
+MP                        =      219.834   +/-   3.59086      	 (limited)
+Area                      =      13984.7   +/-   393.354      	 (limited)
+GSigma                    =      56.7678   +/-   6.41462      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk02_Mod09 Entries: 1409 FitRange: 98.14~981.37 MPV: 242.71 RelativeErrorMPV: 1.63 FWHM: 206.30 Chi2/NDF: 0.87 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk02_Mod09.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      66.2404
+NDf                       =           75
+Edm                       =  9.28829e-08
+NCalls                    =          138
+Width                     =      31.3148   +/-   2.52812      	 (limited)
+MP                        =       211.57   +/-   2.98928      	 (limited)
+Area                      =      14301.2   +/-   398.554      	 (limited)
+GSigma                    =      51.0836   +/-   5.61889      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk02_Mod11 Entries: 1443 FitRange: 95.07~950.74 MPV: 232.12 RelativeErrorMPV: 1.41 FWHM: 190.69 Chi2/NDF: 0.88 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk02_Mod11.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      88.7698
+NDf                       =           77
+Edm                       =  2.32298e-07
+NCalls                    =          140
+Width                     =      30.1961   +/-   2.21603      	 (limited)
+MP                        =      210.638   +/-   2.81671      	 (limited)
+Area                      =      21552.1   +/-   495.25       	 (limited)
+GSigma                    =      59.8811   +/-   4.81713      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk03_Mod08 Entries: 2178 FitRange: 96.57~965.69 MPV: 234.66 RelativeErrorMPV: 1.34 FWHM: 205.84 Chi2/NDF: 1.15 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk03_Mod08.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      61.6042
+NDf                       =           71
+Edm                       =  5.99922e-06
+NCalls                    =          139
+Width                     =       22.565   +/-   1.73194      	 (limited)
+MP                        =      192.429   +/-   2.52206      	 (limited)
+Area                      =      21431.4   +/-   489.341      	 (limited)
+GSigma                    =      57.4624   +/-   3.73674      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk03_Mod10 Entries: 2163 FitRange: 85.39~853.92 MPV: 214.74 RelativeErrorMPV: 1.31 FWHM: 181.36 Chi2/NDF: 0.87 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk03_Mod10.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      63.4107
+NDf                       =           75
+Edm                       =  3.34376e-08
+NCalls                    =          137
+Width                     =      25.9772   +/-   1.99232      	 (limited)
+MP                        =      198.116   +/-   2.78055      	 (limited)
+Area                      =      23382.9   +/-   519.49       	 (limited)
+GSigma                    =      64.3953   +/-   4.63826      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk04_Mod00 Entries: 2310 FitRange: 90.02~900.21 MPV: 223.24 RelativeErrorMPV: 1.40 FWHM: 204.91 Chi2/NDF: 0.85 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk04_Mod00.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       43.574
+NDf                       =           71
+Edm                       =  3.33567e-08
+NCalls                    =          147
+Width                     =       25.031   +/-   1.61335      	 (limited)
+MP                        =      190.702   +/-   2.13582      	 (limited)
+Area                      =        23145   +/-   499.562      	 (limited)
+GSigma                    =      48.0276   +/-   3.10634      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk04_Mod02 Entries: 2295 FitRange: 83.78~837.84 MPV: 210.01 RelativeErrorMPV: 1.12 FWHM: 167.24 Chi2/NDF: 0.61 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk04_Mod02.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       67.923
+NDf                       =           71
+Edm                       =   7.8841e-08
+NCalls                    =          145
+Width                     =      24.4368   +/-   3.09254      	 (limited)
+MP                        =      217.637   +/-   4.78499      	 (limited)
+Area                      =        14170   +/-   421.314      	 (limited)
+GSigma                    =       84.142   +/-   6.76685      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk05_Mod01 Entries: 1404 FitRange: 96.71~967.09 MPV: 247.90 RelativeErrorMPV: 2.20 FWHM: 245.59 Chi2/NDF: 0.96 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk05_Mod01.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       62.719
+NDf                       =           73
+Edm                       =  3.68738e-09
+NCalls                    =          114
+Width                     =      22.0875   +/-   2.4934       	 (limited)
+MP                        =      211.387   +/-   4.00081      	 (limited)
+Area                      =      13817.3   +/-   396.89       	 (limited)
+GSigma                    =      74.3673   +/-   5.35577      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk05_Mod03 Entries: 1407 FitRange: 91.23~912.27 MPV: 238.32 RelativeErrorMPV: 1.89 FWHM: 218.15 Chi2/NDF: 0.86 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk05_Mod03.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =        78.31
+NDf                       =           56
+Edm                       =  2.48279e-07
+NCalls                    =          151
+Width                     =      23.8722   +/-   0.740508     	 (limited)
+MP                        =       145.18   +/-   0.915386     	 (limited)
+Area                      =       113445   +/-   1156.26      	 (limited)
+GSigma                    =      42.2592   +/-   1.70543      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk06_Mod21 Entries: 11533 FitRange: 67.27~672.65 MPV: 162.21 RelativeErrorMPV: 0.63 FWHM: 152.12 Chi2/NDF: 1.40 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk06_Mod21.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      38.4244
+NDf                       =           39
+Edm                       =  1.25905e-06
+NCalls                    =          179
+Width                     =      16.9809   +/-   0.498845     	 (limited)
+MP                        =      102.673   +/-   0.608411     	 (limited)
+Area                      =       100620   +/-   1070.3       	 (limited)
+GSigma                    =      26.3707   +/-   1.20743      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk06_Mod23 Entries: 9827 FitRange: 47.87~478.66 MPV: 113.25 RelativeErrorMPV: 0.59 FWHM: 100.75 Chi2/NDF: 0.99 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk06_Mod23.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      134.334
+NDf                       =           88
+Edm                       =  2.14645e-09
+NCalls                    =          135
+Width                     =       29.866   +/-   0.819391     	 (limited)
+MP                        =      242.957   +/-   1.04757      	 (limited)
+Area                      =       118370   +/-   1125.8       	 (limited)
+GSigma                    =      56.7481   +/-   1.54396      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk06_Mod28 Entries: 11894 FitRange: 102.04~1020.40 MPV: 265.78 RelativeErrorMPV: 0.43 FWHM: 198.37 Chi2/NDF: 1.53 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk06_Mod28.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      71.2667
+NDf                       =           43
+Edm                       =  4.97221e-07
+NCalls                    =          228
+Width                     =      17.2728   +/-   0.540163     	 (limited)
+MP                        =      119.209   +/-   0.699415     	 (limited)
+Area                      =       101527   +/-   1056.66      	 (limited)
+GSigma                    =      32.7441   +/-   1.17971      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk06_Mod30 Entries: 9920 FitRange: 52.21~522.11 MPV: 132.38 RelativeErrorMPV: 0.59 FWHM: 114.57 Chi2/NDF: 1.66 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk06_Mod30.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      143.798
+NDf                       =           90
+Edm                       =  5.25495e-08
+NCalls                    =          138
+Width                     =      32.1479   +/-   0.788883     	 (limited)
+MP                        =      232.848   +/-   0.959947     	 (limited)
+Area                      =       146573   +/-   1258.09      	 (limited)
+GSigma                    =      55.4868   +/-   1.53582      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk07_Mod20 Entries: 14629 FitRange: 103.63~1036.35 MPV: 255.20 RelativeErrorMPV: 0.41 FWHM: 201.94 Chi2/NDF: 1.60 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk07_Mod20.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      57.1797
+NDf                       =           37
+Edm                       =  1.38066e-08
+NCalls                    =          205
+Width                     =       15.569   +/-   0.496481     	 (limited)
+MP                        =       99.164   +/-   0.648214     	 (limited)
+Area                      =       116726   +/-   1193.85      	 (limited)
+GSigma                    =      30.7501   +/-   1.2752       	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk07_Mod22 Entries: 11296 FitRange: 46.44~464.42 MPV: 111.51 RelativeErrorMPV: 0.65 FWHM: 105.87 Chi2/NDF: 1.55 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk07_Mod22.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      122.361
+NDf                       =           91
+Edm                       =  4.07747e-09
+NCalls                    =          131
+Width                     =      30.5051   +/-   0.842352     	 (limited)
+MP                        =      251.885   +/-   1.14807      	 (limited)
+Area                      =       149408   +/-   1277.88      	 (limited)
+GSigma                    =      69.6948   +/-   1.70783      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk07_Mod29 Entries: 14822 FitRange: 105.60~1056.03 MPV: 279.44 RelativeErrorMPV: 0.46 FWHM: 227.68 Chi2/NDF: 1.34 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk07_Mod29.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      57.2064
+NDf                       =           40
+Edm                       =  5.12627e-06
+NCalls                    =          180
+Width                     =      14.4619   +/-   0.488943     	 (limited)
+MP                        =      114.243   +/-   0.697791     	 (limited)
+Area                      =       122129   +/-   1176.73      	 (limited)
+GSigma                    =       37.206   +/-   1.12316      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk07_Mod31 Entries: 11829 FitRange: 49.33~493.35 MPV: 128.66 RelativeErrorMPV: 0.61 FWHM: 117.07 Chi2/NDF: 1.43 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk07_Mod31.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      67.8172
+NDf                       =           81
+Edm                       =  3.96707e-07
+NCalls                    =          137
+Width                     =      36.9746   +/-   2.97168      	 (limited)
+MP                        =        243.5   +/-   3.31884      	 (limited)
+Area                      =      13338.5   +/-   385.148      	 (limited)
+GSigma                    =      52.2277   +/-   5.87441      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk08_Mod25 Entries: 1336 FitRange: 106.52~1065.25 MPV: 264.25 RelativeErrorMPV: 1.36 FWHM: 209.24 Chi2/NDF: 0.84 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk08_Mod25.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      30.1099
+NDf                       =           32
+Edm                       =   4.6792e-08
+NCalls                    =          203
+Width                     =      10.7874   +/-   1.49786      	 (limited)
+MP                        =      90.2344   +/-   2.36487      	 (limited)
+Area                      =      10226.4   +/-   355.03       	 (limited)
+GSigma                    =      35.9795   +/-   3.70294      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk08_Mod27 Entries: 990 FitRange: 39.77~397.67 MPV: 103.30 RelativeErrorMPV: 2.62 FWHM: 105.77 Chi2/NDF: 0.94 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk08_Mod27.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      91.0598
+NDf                       =           88
+Edm                       =  6.28249e-07
+NCalls                    =          127
+Width                     =       29.735   +/-   2.36119      	 (limited)
+MP                        =      244.016   +/-   3.02808      	 (limited)
+Area                      =      18406.8   +/-   447.842      	 (limited)
+GSigma                    =      62.8825   +/-   4.79035      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk09_Mod24 Entries: 1898 FitRange: 106.79~1067.89 MPV: 269.11 RelativeErrorMPV: 1.24 FWHM: 211.03 Chi2/NDF: 1.03 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk09_Mod24.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       28.425
+NDf                       =           35
+Edm                       =  4.44332e-09
+NCalls                    =          206
+Width                     =      14.1964   +/-   1.30707      	 (limited)
+MP                        =      93.6611   +/-   1.7531       	 (limited)
+Area                      =      14937.7   +/-   414.775      	 (limited)
+GSigma                    =      31.1874   +/-   3.20308      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk09_Mod26 Entries: 1454 FitRange: 44.08~440.82 MPV: 106.05 RelativeErrorMPV: 1.87 FWHM: 103.26 Chi2/NDF: 0.81 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk09_Mod26.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      105.145
+NDf                       =          100
+Edm                       =  8.87173e-08
+NCalls                    =          126
+Width                     =      28.6827   +/-   2.03889      	 (limited)
+MP                        =      286.807   +/-   2.98467      	 (limited)
+Area                      =      24494.2   +/-   510.691      	 (limited)
+GSigma                    =      71.9793   +/-   3.9833       	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk10_Mod16 Entries: 2493 FitRange: 120.86~1208.61 MPV: 314.83 RelativeErrorMPV: 1.04 FWHM: 228.18 Chi2/NDF: 1.05 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk10_Mod16.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      48.0876
+NDf                       =           56
+Edm                       =  9.45906e-08
+NCalls                    =          202
+Width                     =      20.1039   +/-   1.31457      	 (limited)
+MP                        =      156.834   +/-   1.77367      	 (limited)
+Area                      =      23326.9   +/-   502.068      	 (limited)
+GSigma                    =      38.9381   +/-   2.69706      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk10_Mod18 Entries: 2306 FitRange: 67.99~679.92 MPV: 172.48 RelativeErrorMPV: 1.13 FWHM: 135.08 Chi2/NDF: 0.86 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk10_Mod18.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      101.405
+NDf                       =          108
+Edm                       =  5.26678e-06
+NCalls                    =          183
+Width                     =      43.1514   +/-   3.79975      	 (limited)
+MP                        =      299.737   +/-   4.53838      	 (limited)
+Area                      =      14660.9   +/-   404.723      	 (limited)
+GSigma                    =      77.9031   +/-   8.37982      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk11_Mod17 Entries: 1531 FitRange: 136.89~1368.94 MPV: 331.12 RelativeErrorMPV: 1.51 FWHM: 278.10 Chi2/NDF: 0.94 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk11_Mod17.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =        46.31
+NDf                       =           57
+Edm                       =  1.36775e-07
+NCalls                    =          139
+Width                     =      25.3627   +/-   1.88166      	 (limited)
+MP                        =      142.664   +/-   2.23989      	 (limited)
+Area                      =      14059.4   +/-   398.801      	 (limited)
+GSigma                    =       33.765   +/-   4.87946      	 (limited)
+[32m[info][0m DCVPeak_withIADPTimeCut_trk11_Mod19 Entries: 1409 FitRange: 69.13~691.31 MPV: 155.95 RelativeErrorMPV: 1.57 FWHM: 139.62 Chi2/NDF: 0.81 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPeak_withIADPTimeCut_trk11_Mod19.pdf has been created
+
+Processing analysis_MakeAndFit_DCVEne.cpp("92", 4, 1, 3, 1)...
+[32m[info][0m Input run id has parameter index : 11 [90m(DCVAnalysisManager.h:35)[0m
+[32m[info][0m >>>>>READ IN: /Users/jinhyunpark/npl/Analysis/KOTO/DCV/calibration_for_distribution/CosmicTrackedTTree/Run92_Period04_trackMapping_ttree_UT.root [90m(analysis_MakeAndFit_DCVEne.cpp:15)[0m
+[32m[info][0m >>>>>READ IN: tout [90m(analysis_MakeAndFit_DCVEne.cpp:20)[0m
+[32m[info][0m >>>>>READ IN: Run92_Period04_Nx/Run92_Period04_N1_IADPTimeCutApplied_UT.root [90m(analysis_MakeAndFit_DCVEne.cpp:15)[0m
+[32m[info][0m >>>>>READ IN: hisN1 [90m(analysis_MakeAndFit_DCVEne.cpp:20)[0m
+[32m[info][0m >>>>>READ IN: Run91_Period16_Nx/Run91_Period16_LanGausMpvWithError_UT.root [90m(analysis_MakeAndFit_DCVEne.cpp:15)[0m
+[32m[info][0m >>>>>READ IN: LanGausMpv [90m(analysis_MakeAndFit_DCVEne.cpp:20)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk00_MainMod05_SubMod04 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk00_MainMod07_SubMod06 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk00_MainMod12_SubMod13 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk00_MainMod14_SubMod15 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk01_MainMod04_SubMod05 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk01_MainMod06_SubMod07 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk01_MainMod13_SubMod12 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk01_MainMod15_SubMod14 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk02_MainMod09_SubMod08 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk02_MainMod11_SubMod10 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk03_MainMod08_SubMod09 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk03_MainMod10_SubMod11 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk04_MainMod00_SubMod01 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk04_MainMod02_SubMod03 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk05_MainMod01_SubMod00 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk05_MainMod03_SubMod02 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk06_MainMod21_SubMod20 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk06_MainMod23_SubMod22 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk06_MainMod28_SubMod29 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk06_MainMod30_SubMod31 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk07_MainMod20_SubMod21 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk07_MainMod22_SubMod23 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk07_MainMod29_SubMod28 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk07_MainMod31_SubMod30 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk08_MainMod25_SubMod24 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk08_MainMod27_SubMod26 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk09_MainMod24_SubMod25 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk09_MainMod26_SubMod27 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk10_MainMod16_SubMod17 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk10_MainMod18_SubMod19 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk11_MainMod17_SubMod16 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVPairEne_withIADPTimeCut_trk11_MainMod19_SubMod18 [90m(analysis_MakeAndFit_DCVEne.cpp:86)[0m
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      162.521
+NDf                       =           65
+Edm                       =   1.1047e-06
+NCalls                    =          297
+Width                     =    0.0965684   +/-   0.00243755   	 (limited)
+MP                        =     0.819293   +/-   0.00379247   	 (limited)
+Area                      =      1038.32   +/-   10.2998      	 (limited)
+GSigma                    =     0.186781   +/-   0.0050072    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk00_MainMod05_SubMod04 Entries: 10428 FitRange: 0.31~7.34 MPV: 0.89 RelativeErrorMPV: 0.46 FWHM: 0.65 Chi2/NDF: 2.50 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk00_MainMod05_SubMod04.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      131.994
+NDf                       =           51
+Edm                       =  1.98817e-07
+NCalls                    =          197
+Width                     =    0.0769884   +/-   0.00191455   	 (limited)
+MP                        =     0.614118   +/-   0.00275631   	 (limited)
+Area                      =      1161.65   +/-   11.0452      	 (limited)
+GSigma                    =     0.144908   +/-   0.00359555   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk00_MainMod07_SubMod06 Entries: 11633 FitRange: 0.24~5.69 MPV: 0.67 RelativeErrorMPV: 0.45 FWHM: 0.51 Chi2/NDF: 2.59 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk00_MainMod07_SubMod06.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      230.734
+NDf                       =           60
+Edm                       =  6.16201e-10
+NCalls                    =          348
+Width                     =    0.0869721   +/-   0.00211093   	 (limited)
+MP                        =     0.797042   +/-   0.00311538   	 (limited)
+Area                      =         1134   +/-   10.7509      	 (limited)
+GSigma                    =     0.164717   +/-   0.00393487   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk00_MainMod12_SubMod13 Entries: 11498 FitRange: 0.29~6.97 MPV: 0.86 RelativeErrorMPV: 0.39 FWHM: 0.58 Chi2/NDF: 3.85 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk00_MainMod12_SubMod13.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      218.541
+NDf                       =           49
+Edm                       =  4.87278e-08
+NCalls                    =          230
+Width                     =       0.0693   +/-   0.00171389   	 (limited)
+MP                        =     0.617034   +/-   0.00250758   	 (limited)
+Area                      =      1140.03   +/-   10.7731      	 (limited)
+GSigma                    =     0.135283   +/-   0.00318081   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk00_MainMod14_SubMod15 Entries: 11537 FitRange: 0.23~5.53 MPV: 0.67 RelativeErrorMPV: 0.41 FWHM: 0.47 Chi2/NDF: 4.46 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk00_MainMod14_SubMod15.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       121.78
+NDf                       =           63
+Edm                       =  2.15943e-08
+NCalls                    =          205
+Width                     =    0.0904969   +/-   0.00239947   	 (limited)
+MP                        =     0.831917   +/-   0.00389116   	 (limited)
+Area                      =      1114.11   +/-   10.6754      	 (limited)
+GSigma                    =     0.205216   +/-   0.00474776   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk01_MainMod04_SubMod05 Entries: 11127 FitRange: 0.30~7.31 MPV: 0.91 RelativeErrorMPV: 0.47 FWHM: 0.67 Chi2/NDF: 1.93 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk01_MainMod04_SubMod05.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      178.558
+NDf                       =           51
+Edm                       =  4.82083e-06
+NCalls                    =          274
+Width                     =    0.0718672   +/-   0.00171765   	 (limited)
+MP                        =     0.631648   +/-   0.00257745   	 (limited)
+Area                      =       1193.5   +/-   11.0224      	 (limited)
+GSigma                    =     0.139815   +/-   0.00314492   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk01_MainMod06_SubMod07 Entries: 12014 FitRange: 0.24~5.69 MPV: 0.69 RelativeErrorMPV: 0.41 FWHM: 0.48 Chi2/NDF: 3.50 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk01_MainMod06_SubMod07.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      227.147
+NDf                       =           58
+Edm                       =  1.82108e-07
+NCalls                    =          454
+Width                     =    0.0788458   +/-   0.00193836   	 (limited)
+MP                        =     0.797688   +/-   0.00290183   	 (limited)
+Area                      =      1111.09   +/-   10.6308      	 (limited)
+GSigma                    =     0.154016   +/-   0.00360655   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk01_MainMod13_SubMod12 Entries: 11271 FitRange: 0.28~6.83 MPV: 0.86 RelativeErrorMPV: 0.36 FWHM: 0.53 Chi2/NDF: 3.92 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk01_MainMod13_SubMod12.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       237.17
+NDf                       =           49
+Edm                       =  6.80182e-07
+NCalls                    =          225
+Width                     =    0.0713504   +/-   0.00168823   	 (limited)
+MP                        =      0.62908   +/-   0.00256807   	 (limited)
+Area                      =      1189.42   +/-   11.0071      	 (limited)
+GSigma                    =     0.138606   +/-   0.00321462   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk01_MainMod15_SubMod14 Entries: 12029 FitRange: 0.23~5.63 MPV: 0.68 RelativeErrorMPV: 0.41 FWHM: 0.48 Chi2/NDF: 4.84 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk01_MainMod15_SubMod14.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      34.3113
+NDf                       =           52
+Edm                       =  1.14117e-07
+NCalls                    =          211
+Width                     =     0.150826   +/-   0.00954346   	 (limited)
+MP                        =     0.985326   +/-   0.0123701    	 (limited)
+Area                      =      141.947   +/-   3.84988      	 (limited)
+GSigma                    =     0.179424   +/-   0.0208348    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk02_MainMod09_SubMod08 Entries: 1409 FitRange: 0.39~9.38 MPV: 1.05 RelativeErrorMPV: 1.26 FWHM: 0.79 Chi2/NDF: 0.66 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk02_MainMod09_SubMod08.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      37.5179
+NDf                       =           42
+Edm                       =  6.01857e-08
+NCalls                    =          227
+Width                     =     0.117494   +/-   0.00734895   	 (limited)
+MP                        =     0.786157   +/-   0.00944295   	 (limited)
+Area                      =      145.208   +/-   3.89623      	 (limited)
+GSigma                    =     0.142771   +/-   0.0150663    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk02_MainMod11_SubMod10 Entries: 1443 FitRange: 0.31~7.43 MPV: 0.84 RelativeErrorMPV: 1.20 FWHM: 0.62 Chi2/NDF: 0.89 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk02_MainMod11_SubMod10.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       68.027
+NDf                       =           64
+Edm                       =  1.50369e-06
+NCalls                    =          219
+Width                     =     0.156409   +/-   0.00749567   	 (limited)
+MP                        =      1.00292   +/-   0.00932908   	 (limited)
+Area                      =      216.916   +/-   4.73825      	 (limited)
+GSigma                    =     0.137181   +/-   0.0138792    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk03_MainMod08_SubMod09 Entries: 2178 FitRange: 0.39~9.46 MPV: 1.05 RelativeErrorMPV: 0.93 FWHM: 0.74 Chi2/NDF: 1.06 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk03_MainMod08_SubMod09.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      56.9659
+NDf                       =           51
+Edm                       =  3.51602e-08
+NCalls                    =          210
+Width                     =     0.114673   +/-   0.00610111   	 (limited)
+MP                        =     0.790719   +/-   0.00778094   	 (limited)
+Area                      =      215.964   +/-   4.72525      	 (limited)
+GSigma                    =     0.138417   +/-   0.0112474    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk03_MainMod10_SubMod11 Entries: 2163 FitRange: 0.31~7.36 MPV: 0.84 RelativeErrorMPV: 0.98 FWHM: 0.61 Chi2/NDF: 1.12 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk03_MainMod10_SubMod11.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      67.0008
+NDf                       =           64
+Edm                       =  4.31737e-07
+NCalls                    =          225
+Width                     =     0.144506   +/-   0.00690418   	 (limited)
+MP                        =     0.950004   +/-   0.00877884   	 (limited)
+Area                      =       228.95   +/-   4.86635      	 (limited)
+GSigma                    =     0.162928   +/-   0.0140526    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk04_MainMod00_SubMod01 Entries: 2310 FitRange: 0.39~9.34 MPV: 1.01 RelativeErrorMPV: 0.92 FWHM: 0.74 Chi2/NDF: 1.05 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk04_MainMod00_SubMod01.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      42.3412
+NDf                       =           53
+Edm                       =  1.23056e-08
+NCalls                    =          221
+Width                     =     0.103815   +/-   0.00512184   	 (limited)
+MP                        =     0.766952   +/-   0.00701292   	 (limited)
+Area                      =      228.664   +/-   4.84309      	 (limited)
+GSigma                    =     0.136292   +/-   0.00969938   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk04_MainMod02_SubMod03 Entries: 2295 FitRange: 0.30~7.30 MPV: 0.82 RelativeErrorMPV: 0.91 FWHM: 0.57 Chi2/NDF: 0.80 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk04_MainMod02_SubMod03.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      42.6452
+NDf                       =           55
+Edm                       =  2.75616e-06
+NCalls                    =          266
+Width                     =     0.138427   +/-   0.00938375   	 (limited)
+MP                        =     0.980242   +/-   0.0123011    	 (limited)
+Area                      =      140.671   +/-   3.83241      	 (limited)
+GSigma                    =     0.189554   +/-   0.0177618    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk05_MainMod01_SubMod00 Entries: 1404 FitRange: 0.38~9.03 MPV: 1.06 RelativeErrorMPV: 1.25 FWHM: 0.77 Chi2/NDF: 0.78 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk05_MainMod01_SubMod00.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      31.1866
+NDf                       =           46
+Edm                       =  1.14652e-08
+NCalls                    =          194
+Width                     =     0.101252   +/-   0.00692337   	 (limited)
+MP                        =     0.783803   +/-   0.00956412   	 (limited)
+Area                      =      141.273   +/-   3.823        	 (limited)
+GSigma                    =     0.157063   +/-   0.0129623    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk05_MainMod03_SubMod02 Entries: 1407 FitRange: 0.30~7.11 MPV: 0.85 RelativeErrorMPV: 1.22 FWHM: 0.60 Chi2/NDF: 0.68 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk05_MainMod03_SubMod02.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      211.328
+NDf                       =           62
+Edm                       =  1.17389e-07
+NCalls                    =          236
+Width                     =     0.102886   +/-   0.00277394   	 (limited)
+MP                        =      0.76791   +/-   0.00420797   	 (limited)
+Area                      =      1127.38   +/-   10.9051      	 (limited)
+GSigma                    =     0.227974   +/-   0.00625126   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk06_MainMod21_SubMod20 Entries: 11533 FitRange: 0.30~7.18 MPV: 0.86 RelativeErrorMPV: 0.55 FWHM: 0.75 Chi2/NDF: 3.41 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk06_MainMod21_SubMod20.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      172.031
+NDf                       =           46
+Edm                       =  1.26893e-09
+NCalls                    =          354
+Width                     =    0.0682643   +/-   0.00199344   	 (limited)
+MP                        =     0.644698   +/-   0.00341548   	 (limited)
+Area                      =       980.07   +/-   10.0198      	 (limited)
+GSigma                    =     0.178539   +/-   0.00412773   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk06_MainMod23_SubMod22 Entries: 9827 FitRange: 0.24~5.67 MPV: 0.71 RelativeErrorMPV: 0.53 FWHM: 0.56 Chi2/NDF: 3.74 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk06_MainMod23_SubMod22.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       235.09
+NDf                       =           56
+Edm                       =   2.9423e-09
+NCalls                    =          324
+Width                     =    0.0892043   +/-   0.00213959   	 (limited)
+MP                        =     0.762677   +/-   0.0030121    	 (limited)
+Area                      =       1162.7   +/-   10.9093      	 (limited)
+GSigma                    =     0.166622   +/-   0.00422589   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk06_MainMod28_SubMod29 Entries: 11894 FitRange: 0.28~6.72 MPV: 0.83 RelativeErrorMPV: 0.39 FWHM: 0.59 Chi2/NDF: 4.20 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk06_MainMod28_SubMod29.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      224.086
+NDf                       =           45
+Edm                       =  2.17478e-06
+NCalls                    =          426
+Width                     =    0.0618502   +/-   0.00182329   	 (limited)
+MP                        =     0.622579   +/-   0.00332567   	 (limited)
+Area                      =      983.111   +/-   10.0293      	 (limited)
+GSigma                    =     0.172272   +/-   0.00396644   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk06_MainMod30_SubMod31 Entries: 9920 FitRange: 0.22~5.30 MPV: 0.69 RelativeErrorMPV: 0.53 FWHM: 0.53 Chi2/NDF: 4.98 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk06_MainMod30_SubMod31.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      293.105
+NDf                       =           64
+Edm                       =  1.29525e-07
+NCalls                    =          578
+Width                     =    0.0907016   +/-   0.00192769   	 (limited)
+MP                        =     0.798623   +/-   0.00277915   	 (limited)
+Area                      =      1438.34   +/-   12.108       	 (limited)
+GSigma                    =     0.168999   +/-   0.00376572   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk07_MainMod20_SubMod21 Entries: 14629 FitRange: 0.30~7.12 MPV: 0.87 RelativeErrorMPV: 0.35 FWHM: 0.60 Chi2/NDF: 4.58 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk07_MainMod20_SubMod21.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      183.529
+NDf                       =           49
+Edm                       =  2.76293e-08
+NCalls                    =          453
+Width                     =    0.0694039   +/-   0.00186224   	 (limited)
+MP                        =     0.629852   +/-   0.00328959   	 (limited)
+Area                      =      1128.91   +/-   10.7492      	 (limited)
+GSigma                    =     0.174156   +/-   0.00389115   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk07_MainMod22_SubMod23 Entries: 11296 FitRange: 0.23~5.55 MPV: 0.70 RelativeErrorMPV: 0.52 FWHM: 0.55 Chi2/NDF: 3.75 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk07_MainMod22_SubMod23.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      316.631
+NDf                       =           59
+Edm                       =  4.59875e-07
+NCalls                    =          447
+Width                     =    0.0840589   +/-   0.00187618   	 (limited)
+MP                        =     0.790705   +/-   0.00283784   	 (limited)
+Area                      =      1451.56   +/-   12.171       	 (limited)
+GSigma                    =     0.176918   +/-   0.00369495   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk07_MainMod29_SubMod28 Entries: 14822 FitRange: 0.29~6.84 MPV: 0.86 RelativeErrorMPV: 0.36 FWHM: 0.59 Chi2/NDF: 5.37 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk07_MainMod29_SubMod28.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      257.691
+NDf                       =           45
+Edm                       =  1.28268e-09
+NCalls                    =          644
+Width                     =    0.0586028   +/-   0.001642     	 (limited)
+MP                        =     0.624588   +/-   0.00313881   	 (limited)
+Area                      =      1174.19   +/-   10.9614      	 (limited)
+GSigma                    =     0.178503   +/-   0.00346024   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk07_MainMod31_SubMod30 Entries: 11829 FitRange: 0.22~5.26 MPV: 0.69 RelativeErrorMPV: 0.50 FWHM: 0.54 Chi2/NDF: 5.73 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk07_MainMod31_SubMod30.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      51.7765
+NDf                       =           46
+Edm                       =   3.6986e-08
+NCalls                    =          247
+Width                     =      0.14246   +/-   0.00965981   	 (limited)
+MP                        =     0.971912   +/-   0.0120728    	 (limited)
+Area                      =      132.592   +/-   3.73223      	 (limited)
+GSigma                    =     0.157055   +/-   0.0192416    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk08_MainMod25_SubMod24 Entries: 1336 FitRange: 0.37~8.89 MPV: 1.03 RelativeErrorMPV: 1.24 FWHM: 0.73 Chi2/NDF: 1.13 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk08_MainMod25_SubMod24.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      22.3103
+NDf                       =           31
+Edm                       =  5.45777e-07
+NCalls                    =          212
+Width                     =     0.102972   +/-   0.00969572   	 (limited)
+MP                        =     0.734874   +/-   0.0125277    	 (limited)
+Area                      =      101.693   +/-   3.30531      	 (limited)
+GSigma                    =     0.186075   +/-   0.0217294    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk08_MainMod27_SubMod26 Entries: 990 FitRange: 0.27~6.52 MPV: 0.81 RelativeErrorMPV: 1.70 FWHM: 0.66 Chi2/NDF: 0.72 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk08_MainMod27_SubMod26.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      92.4127
+NDf                       =           56
+Edm                       =  8.63738e-07
+NCalls                    =          247
+Width                     =     0.122433   +/-   0.0071629    	 (limited)
+MP                        =     0.991266   +/-   0.0094679    	 (limited)
+Area                      =      185.167   +/-   4.37851      	 (limited)
+GSigma                    =     0.170638   +/-   0.0121636    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk09_MainMod24_SubMod25 Entries: 1898 FitRange: 0.38~9.08 MPV: 1.06 RelativeErrorMPV: 0.96 FWHM: 0.69 Chi2/NDF: 1.65 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk09_MainMod24_SubMod25.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      38.3154
+NDf                       =           44
+Edm                       =  2.74128e-06
+NCalls                    =          187
+Width                     =    0.0955837   +/-   0.00773578   	 (limited)
+MP                        =     0.773333   +/-   0.0120551    	 (limited)
+Area                      =      146.365   +/-   3.91428      	 (limited)
+GSigma                    =      0.21025   +/-   0.0160191    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk09_MainMod26_SubMod27 Entries: 1454 FitRange: 0.29~6.96 MPV: 0.86 RelativeErrorMPV: 1.56 FWHM: 0.70 Chi2/NDF: 0.87 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk09_MainMod26_SubMod27.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      33.8526
+NDf                       =           57
+Edm                       =  2.88648e-08
+NCalls                    =          221
+Width                     =     0.119029   +/-   0.0057421    	 (limited)
+MP                        =     0.926863   +/-   0.00753102   	 (limited)
+Area                      =      251.199   +/-   5.08908      	 (limited)
+GSigma                    =     0.156984   +/-   0.0108503    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk10_MainMod16_SubMod17 Entries: 2493 FitRange: 0.35~8.44 MPV: 0.99 RelativeErrorMPV: 0.81 FWHM: 0.65 Chi2/NDF: 0.59 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk10_MainMod16_SubMod17.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      46.2615
+NDf                       =           49
+Edm                       =  4.58016e-08
+NCalls                    =          192
+Width                     =    0.0781464   +/-   0.00454693   	 (limited)
+MP                        =     0.732859   +/-   0.00736193   	 (limited)
+Area                      =      229.761   +/-   4.85338      	 (limited)
+GSigma                    =      0.16855   +/-   0.00878837   	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk10_MainMod18_SubMod19 Entries: 2306 FitRange: 0.27~6.45 MPV: 0.80 RelativeErrorMPV: 1.00 FWHM: 0.56 Chi2/NDF: 0.94 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk10_MainMod18_SubMod19.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      45.5947
+NDf                       =           57
+Edm                       =  1.09923e-05
+NCalls                    =          197
+Width                     =     0.160844   +/-   0.00896622   	 (limited)
+MP                        =     0.993051   +/-   0.0107854    	 (limited)
+Area                      =       152.99   +/-   3.99511      	 (limited)
+GSigma                    =     0.139556   +/-   0.0184319    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk11_MainMod17_SubMod16 Entries: 1531 FitRange: 0.40~9.56 MPV: 1.04 RelativeErrorMPV: 1.09 FWHM: 0.76 Chi2/NDF: 0.80 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk11_MainMod17_SubMod16.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       23.386
+NDf                       =           47
+Edm                       =  9.90036e-07
+NCalls                    =          219
+Width                     =     0.128138   +/-   0.00768061   	 (limited)
+MP                        =     0.753863   +/-   0.00959562   	 (limited)
+Area                      =      142.953   +/-   3.8625       	 (limited)
+GSigma                    =     0.130892   +/-   0.0169264    	 (limited)
+[32m[info][0m DCVPairEne_withIADPTimeCut_trk11_MainMod19_SubMod18 Entries: 1409 FitRange: 0.31~7.36 MPV: 0.80 RelativeErrorMPV: 1.27 FWHM: 0.64 Chi2/NDF: 0.50 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVPairEne_withIADPTimeCut_trk11_MainMod19_SubMod18.pdf has been created
+
+Processing analysis_MakeAndFit_DCVEne.cpp("92", 4, 2, 3, 1)...
+[32m[info][0m Input run id has parameter index : 11 [90m(DCVAnalysisManager.h:35)[0m
+[32m[info][0m >>>>>READ IN: /Users/jinhyunpark/npl/Analysis/KOTO/DCV/calibration_for_distribution/CosmicTrackedTTree/Run92_Period04_trackMapping_ttree_UT.root [90m(analysis_MakeAndFit_DCVEne.cpp:15)[0m
+[32m[info][0m >>>>>READ IN: tout [90m(analysis_MakeAndFit_DCVEne.cpp:20)[0m
+[32m[info][0m >>>>>READ IN: Run92_Period04_Nx/Run92_Period04_N1_IADPTimeCutApplied_UT.root [90m(analysis_MakeAndFit_DCVEne.cpp:15)[0m
+[32m[info][0m >>>>>READ IN: hisN1 [90m(analysis_MakeAndFit_DCVEne.cpp:20)[0m
+[32m[info][0m >>>>>READ IN: Run92_Period04_Nx/Run92_Period04_N2_IADPTimeCutApplied_UT.root [90m(analysis_MakeAndFit_DCVEne.cpp:15)[0m
+[32m[info][0m >>>>>READ IN: hisN2 [90m(analysis_MakeAndFit_DCVEne.cpp:20)[0m
+[32m[info][0m >>>>>READ IN: Run91_Period16_Nx/Run91_Period16_LanGausMpvWithError_UT.root [90m(analysis_MakeAndFit_DCVEne.cpp:15)[0m
+[32m[info][0m >>>>>READ IN: LanGausMpv [90m(analysis_MakeAndFit_DCVEne.cpp:20)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk00_Upstream_Main05_Sub04_Downstream_Main07_Sub06 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk00_Upstream_Main12_Sub13_Downstream_Main14_Sub15 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk01_Upstream_Main04_Sub05_Downstream_Main06_Sub07 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk01_Upstream_Main13_Sub12_Downstream_Main15_Sub14 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk02_Upstream_Main09_Sub08_Downstream_Main11_Sub10 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk03_Upstream_Main08_Sub09_Downstream_Main10_Sub11 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk04_Upstream_Main00_Sub01_Downstream_Main02_Sub03 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk05_Upstream_Main01_Sub00_Downstream_Main03_Sub02 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk06_Upstream_Main21_Sub20_Downstream_Main23_Sub22 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk06_Upstream_Main28_Sub29_Downstream_Main30_Sub31 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk07_Upstream_Main20_Sub21_Downstream_Main22_Sub23 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk07_Upstream_Main29_Sub28_Downstream_Main31_Sub30 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk08_Upstream_Main25_Sub24_Downstream_Main27_Sub26 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk09_Upstream_Main24_Sub25_Downstream_Main26_Sub27 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk10_Upstream_Main16_Sub17_Downstream_Main18_Sub19 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+[32m[info][0m >>>>> CHECK HISTOGRAM CREATED: DCVModuleEne_withIADPTimeCut_trk11_Upstream_Main17_Sub16_Downstream_Main19_Sub18 [90m(analysis_MakeAndFit_DCVEne.cpp:81)[0m
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      213.427
+NDf                       =          117
+Edm                       =  5.60035e-08
+NCalls                    =          222
+Width                     =     0.184566   +/-   0.00407478   	 (limited)
+MP                        =      1.54948   +/-   0.00521156   	 (limited)
+Area                      =      980.549   +/-   9.98889      	 (limited)
+GSigma                    =     0.225751   +/-   0.00768424   	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk00_Upstream_Main05_Sub04_Downstream_Main07_Sub06 Entries: 9876 FitRange: 0.59~14.09 MPV: 1.64 RelativeErrorMPV: 0.34 FWHM: 0.98 Chi2/NDF: 1.82 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk00_Upstream_Main05_Sub04_Downstream_Main07_Sub06.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      272.471
+NDf                       =          112
+Edm                       =  1.12739e-05
+NCalls                    =          259
+Width                     =     0.163508   +/-   0.00379396   	 (limited)
+MP                        =      1.55292   +/-   0.00462544   	 (limited)
+Area                      =      1098.43   +/-   10.5796      	 (limited)
+GSigma                    =     0.227571   +/-   0.00688847   	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk00_Upstream_Main12_Sub13_Downstream_Main14_Sub15 Entries: 11107 FitRange: 0.57~13.63 MPV: 1.64 RelativeErrorMPV: 0.30 FWHM: 0.92 Chi2/NDF: 2.43 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk00_Upstream_Main12_Sub13_Downstream_Main14_Sub15.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      198.898
+NDf                       =          112
+Edm                       =  6.61711e-08
+NCalls                    =          226
+Width                     =     0.167823   +/-   0.00391447   	 (limited)
+MP                        =      1.55235   +/-   0.00506167   	 (limited)
+Area                      =      1063.47   +/-   10.4134      	 (limited)
+GSigma                    =     0.242076   +/-   0.00713015   	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk01_Upstream_Main04_Sub05_Downstream_Main06_Sub07 Entries: 10690 FitRange: 0.57~13.71 MPV: 1.65 RelativeErrorMPV: 0.33 FWHM: 0.96 Chi2/NDF: 1.78 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk01_Upstream_Main04_Sub05_Downstream_Main06_Sub07.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      295.129
+NDf                       =          111
+Edm                       =  1.20824e-08
+NCalls                    =          212
+Width                     =      0.15992   +/-   0.00371326   	 (limited)
+MP                        =       1.5621   +/-   0.00465417   	 (limited)
+Area                      =      1072.39   +/-   10.4514      	 (limited)
+GSigma                    =     0.222194   +/-   0.00687318   	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk01_Upstream_Main13_Sub12_Downstream_Main15_Sub14 Entries: 10876 FitRange: 0.57~13.62 MPV: 1.65 RelativeErrorMPV: 0.30 FWHM: 0.90 Chi2/NDF: 2.66 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk01_Upstream_Main13_Sub12_Downstream_Main15_Sub14.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      61.4242
+NDf                       =           92
+Edm                       =  1.95655e-06
+NCalls                    =          234
+Width                     =     0.273971   +/-   0.0157019    	 (limited)
+MP                        =      1.85019   +/-   0.0186847    	 (limited)
+Area                      =      138.191   +/-   3.80607      	 (limited)
+GSigma                    =     0.226116   +/-   0.0330569    	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk02_Upstream_Main09_Sub08_Downstream_Main11_Sub10 Entries: 1389 FitRange: 0.72~17.23 MPV: 1.93 RelativeErrorMPV: 1.01 FWHM: 1.27 Chi2/NDF: 0.67 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk02_Upstream_Main09_Sub08_Downstream_Main11_Sub10.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      110.476
+NDf                       =          106
+Edm                       =  6.01364e-06
+NCalls                    =          313
+Width                     =     0.259304   +/-   0.0130171    	 (limited)
+MP                        =      1.89015   +/-   0.0150631    	 (limited)
+Area                      =      206.048   +/-   4.62578      	 (limited)
+GSigma                    =     0.225082   +/-   0.0239216    	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk03_Upstream_Main08_Sub09_Downstream_Main10_Sub11 Entries: 2106 FitRange: 0.73~17.56 MPV: 1.97 RelativeErrorMPV: 0.80 FWHM: 1.22 Chi2/NDF: 1.04 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk03_Upstream_Main08_Sub09_Downstream_Main10_Sub11.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =       95.746
+NDf                       =          100
+Edm                       =   1.0528e-09
+NCalls                    =          305
+Width                     =     0.267688   +/-   0.012489     	 (limited)
+MP                        =      1.87513   +/-   0.0141777    	 (limited)
+Area                      =       222.51   +/-   4.82562      	 (limited)
+GSigma                    =     0.223127   +/-   0.0265146    	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk04_Upstream_Main00_Sub01_Downstream_Main02_Sub03 Entries: 2237 FitRange: 0.73~17.62 MPV: 1.95 RelativeErrorMPV: 0.76 FWHM: 1.25 Chi2/NDF: 0.96 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk04_Upstream_Main00_Sub01_Downstream_Main02_Sub03.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      74.5626
+NDf                       =           87
+Edm                       =  1.36964e-06
+NCalls                    =          214
+Width                     =     0.230468   +/-   0.0153647    	 (limited)
+MP                        =      1.84348   +/-   0.0183925    	 (limited)
+Area                      =      135.691   +/-   3.77027      	 (limited)
+GSigma                    =     0.274472   +/-   0.0292709    	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk05_Upstream_Main01_Sub00_Downstream_Main03_Sub02 Entries: 1380 FitRange: 0.69~16.64 MPV: 1.95 RelativeErrorMPV: 1.00 FWHM: 1.21 Chi2/NDF: 0.86 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk05_Upstream_Main01_Sub00_Downstream_Main03_Sub02.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      207.459
+NDf                       =          112
+Edm                       =  6.59847e-08
+NCalls                    =          260
+Width                     =     0.186352   +/-   0.00477327   	 (limited)
+MP                        =       1.5044   +/-   0.00644774   	 (limited)
+Area                      =      922.121   +/-   9.71972      	 (limited)
+GSigma                    =     0.300777   +/-   0.00911062   	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk06_Upstream_Main21_Sub20_Downstream_Main23_Sub22 Entries: 9295 FitRange: 0.57~13.71 MPV: 1.63 RelativeErrorMPV: 0.43 FWHM: 1.13 Chi2/NDF: 1.85 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk06_Upstream_Main21_Sub20_Downstream_Main23_Sub22.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      217.099
+NDf                       =          103
+Edm                       =  5.93353e-06
+NCalls                    =          297
+Width                     =     0.173727   +/-   0.00419948   	 (limited)
+MP                        =      1.53757   +/-   0.00545618   	 (limited)
+Area                      =      968.579   +/-   9.9533       	 (limited)
+GSigma                    =     0.247667   +/-   0.0078373    	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk06_Upstream_Main28_Sub29_Downstream_Main30_Sub31 Entries: 9745 FitRange: 0.56~13.45 MPV: 1.64 RelativeErrorMPV: 0.35 FWHM: 0.99 Chi2/NDF: 2.11 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk06_Upstream_Main28_Sub29_Downstream_Main30_Sub31.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      247.068
+NDf                       =          119
+Edm                       =  1.98663e-06
+NCalls                    =          228
+Width                     =     0.181669   +/-   0.00391746   	 (limited)
+MP                        =      1.54428   +/-   0.00507424   	 (limited)
+Area                      =      1095.12   +/-   10.5672      	 (limited)
+GSigma                    =     0.233415   +/-   0.00745452   	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk07_Upstream_Main20_Sub21_Downstream_Main22_Sub23 Entries: 11046 FitRange: 0.58~13.82 MPV: 1.64 RelativeErrorMPV: 0.33 FWHM: 0.98 Chi2/NDF: 2.08 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk07_Upstream_Main20_Sub21_Downstream_Main22_Sub23.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      270.029
+NDf                       =          107
+Edm                       =   1.1892e-08
+NCalls                    =          206
+Width                     =     0.165933   +/-   0.0036903    	 (limited)
+MP                        =      1.52241   +/-   0.00495771   	 (limited)
+Area                      =      1154.12   +/-   10.8524      	 (limited)
+GSigma                    =     0.247182   +/-   0.00648561   	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk07_Upstream_Main29_Sub28_Downstream_Main31_Sub30 Entries: 11630 FitRange: 0.55~13.20 MPV: 1.62 RelativeErrorMPV: 0.33 FWHM: 0.96 Chi2/NDF: 2.52 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk07_Upstream_Main29_Sub28_Downstream_Main31_Sub30.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      79.0862
+NDf                       =           67
+Edm                       =  2.27807e-09
+NCalls                    =          516
+Width                     =     0.289696   +/-   0.020637     	 (limited)
+MP                        =       1.8829   +/-   0.0227429    	 (limited)
+Area                      =      96.1191   +/-   3.23545      	 (limited)
+GSigma                    =     0.213048   +/-   0.0449196    	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk08_Upstream_Main25_Sub24_Downstream_Main27_Sub26 Entries: 979 FitRange: 0.71~17.03 MPV: 1.95 RelativeErrorMPV: 1.21 FWHM: 1.31 Chi2/NDF: 1.18 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk08_Upstream_Main25_Sub24_Downstream_Main27_Sub26.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      81.2824
+NDf                       =           84
+Edm                       =  1.37223e-08
+NCalls                    =          522
+Width                     =     0.244517   +/-   0.0152925    	 (limited)
+MP                        =      1.84777   +/-   0.0176926    	 (limited)
+Area                      =      142.405   +/-   3.87293      	 (limited)
+GSigma                    =     0.242737   +/-   0.0287822    	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk09_Upstream_Main24_Sub25_Downstream_Main26_Sub27 Entries: 1447 FitRange: 0.70~16.78 MPV: 1.94 RelativeErrorMPV: 0.96 FWHM: 1.20 Chi2/NDF: 0.97 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk09_Upstream_Main24_Sub25_Downstream_Main26_Sub27.pdf has been created
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      76.6559
+NDf                       =          102
+Edm                       =  3.87602e-07
+NCalls                    =          451
+Width                     =      0.21721   +/-   0.0107076    	 (limited)
+MP                        =      1.83988   +/-   0.0139776    	 (limited)
+Area                      =      228.892   +/-   4.86292      	 (limited)
+GSigma                    =     0.251627   +/-   0.0189653    	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk10_Upstream_Main16_Sub17_Downstream_Main18_Sub19 Entries: 2302 FitRange: 0.68~16.41 MPV: 1.94 RelativeErrorMPV: 0.76 FWHM: 1.13 Chi2/NDF: 0.75 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk10_Upstream_Main16_Sub17_Downstream_Main18_Sub19.pdf has been created
+Info in <ROOT::Math::ParameterSettings>: lower/upper bounds outside current parameter value. The value will be set to (low+up)/2 
+****************************************
+Minimizer is Minuit2 / Migrad
+Chi2                      =      99.1026
+NDf                       =           93
+Edm                       =  5.39773e-08
+NCalls                    =          216
+Width                     =     0.273888   +/-   0.0169631    	 (limited)
+MP                        =      1.94936   +/-   0.0193984    	 (limited)
+Area                      =      136.499   +/-   3.78968      	 (limited)
+GSigma                    =     0.253513   +/-   0.0342964    	 (limited)
+[32m[info][0m DCVModuleEne_withIADPTimeCut_trk11_Upstream_Main17_Sub16_Downstream_Main19_Sub18 Entries: 1408 FitRange: 0.77~18.45 MPV: 2.04 RelativeErrorMPV: 1.00 FWHM: 1.32 Chi2/NDF: 1.07 Rebin: 1 [90m(analysis_MakeAndFit_DCVEne.cpp:176)[0m
+Warning in <TCanvas::Constructor>: Deleting canvas with same name: c1
+Info in <TCanvas::Print>: pdf file Run92_Period04_Nx/pdf/DCVModuleEne_withIADPTimeCut_trk11_Upstream_Main17_Sub16_Downstream_Main19_Sub18.pdf has been created
+
+Processing analysis_CalFactor_GainFactor.cpp("92", 4, 3)...
+[32m[info][0m Input run id has parameter index : 11 [90m(DCVAnalysisManager.h:35)[0m
+[32m[info][0m >>>>> READ IN: Run92_Period04_Nx/Run92_Period04_N1_IADPTimeCutApplied_UT.root [90m(analysis_CalFactor_GainFactor.cpp:59)[0m
+[32m[info][0m >>>>> READ IN: Run92_Period04_Nx/Run92_Period04_N2_IADPTimeCutApplied_UT.root [90m(analysis_CalFactor_GainFactor.cpp:59)[0m
+[32m[info][0m >>>>> READ IN: Run92_Period04_Nx/Run92_Period04_N3_IADPTimeCutApplied_UT.root [90m(analysis_CalFactor_GainFactor.cpp:59)[0m
+Calibration Factor Ch0 0.00159743 / Calculated err based on error prop 3.8078e-05 (Relative Err : 2.3837016)
+[32m[info][0m >>>>> CHECK: DelN1: 4.47482 DelN2: 0.017235 DelN3: 0.0173531 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch1 0.00135538 / Calculated err based on error prop 3.9411e-05 (Relative Err : 2.9077363)
+[32m[info][0m >>>>> CHECK: DelN1: 6.48836 DelN2: 0.019997 DelN3: 0.0211525 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch2 0.00129835 / Calculated err based on error prop 5.32237e-05 (Relative Err : 4.0993385)
+[32m[info][0m >>>>> CHECK: DelN1: 9.02175 DelN2: 0.0348442 DelN3: 0.0173531 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch3 0.00108936 / Calculated err based on error prop 4.66966e-05 (Relative Err : 4.2866302)
+[32m[info][0m >>>>> CHECK: DelN1: 10.8949 DelN2: 0.0367225 DelN3: 0.0211525 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch4 0.00165718 / Calculated err based on error prop 2.87517e-05 (Relative Err : 1.7349766)
+[32m[info][0m >>>>> CHECK: DelN1: 2.86868 DelN2: 0.0153055 DelN3: 0.0075423 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch5 0.00195232 / Calculated err based on error prop 3.38183e-05 (Relative Err : 1.7322112)
+[32m[info][0m >>>>> CHECK: DelN1: 2.47125 DelN2: 0.015046 DelN3: 0.00760817 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch6 0.0012394 / Calculated err based on error prop 4.81405e-05 (Relative Err : 3.8841810)
+[32m[info][0m >>>>> CHECK: DelN1: 9.11498 DelN2: 0.0336092 DelN3: 0.0075423 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch7 0.00162414 / Calculated err based on error prop 6.31418e-05 (Relative Err : 3.8877189)
+[32m[info][0m >>>>> CHECK: DelN1: 7.10071 DelN2: 0.0330473 DelN3: 0.00760817 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch8 0.00144493 / Calculated err based on error prop 3.3933e-05 (Relative Err : 2.3484204)
+[32m[info][0m >>>>> CHECK: DelN1: 4.57101 DelN2: 0.0177949 DelN3: 0.0178305 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch9 0.00139758 / Calculated err based on error prop 3.69285e-05 (Relative Err : 2.6423199)
+[32m[info][0m >>>>> CHECK: DelN1: 5.26284 DelN2: 0.0200309 DelN3: 0.021199 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch10 0.0012181 / Calculated err based on error prop 5.02556e-05 (Relative Err : 4.1257482)
+[32m[info][0m >>>>> CHECK: DelN1: 9.33317 DelN2: 0.0359522 DelN3: 0.0178305 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch11 0.00113549 / Calculated err based on error prop 4.77875e-05 (Relative Err : 4.2085423)
+[32m[info][0m >>>>> CHECK: DelN1: 10.2167 DelN2: 0.0364968 DelN3: 0.021199 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch12 0.00117742 / Calculated err based on error prop 2.00853e-05 (Relative Err : 1.7058674)
+[32m[info][0m >>>>> CHECK: DelN1: 4.17327 DelN2: 0.014351 DelN3: 0.00716365 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch13 0.00101569 / Calculated err based on error prop 1.72787e-05 (Relative Err : 1.7011689)
+[32m[info][0m >>>>> CHECK: DelN1: 4.85646 DelN2: 0.0141941 DelN3: 0.00719121 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch14 0.0013219 / Calculated err based on error prop 5.12971e-05 (Relative Err : 3.8805492)
+[32m[info][0m >>>>> CHECK: DelN1: 8.70071 DelN2: 0.0329471 DelN3: 0.00716365 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch15 0.00125225 / Calculated err based on error prop 4.861e-05 (Relative Err : 3.8818007)
+[32m[info][0m >>>>> CHECK: DelN1: 9.02855 DelN2: 0.0335004 DelN3: 0.00719121 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch16 0.00124768 / Calculated err based on error prop 2.42957e-05 (Relative Err : 1.9472659)
+[32m[info][0m >>>>> CHECK: DelN1: 4.7053 DelN2: 0.0133031 DelN3: 0.0166365 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch17 0.00115077 / Calculated err based on error prop 2.77619e-05 (Relative Err : 2.4124558)
+[32m[info][0m >>>>> CHECK: DelN1: 6.14481 DelN2: 0.015891 DelN3: 0.0222073 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch18 0.00144525 / Calculated err based on error prop 2.64971e-05 (Relative Err : 1.8333898)
+[32m[info][0m >>>>> CHECK: DelN1: 3.23591 DelN2: 0.0144215 DelN3: 0.0166365 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch19 0.00162873 / Calculated err based on error prop 3.541e-05 (Relative Err : 2.1740849)
+[32m[info][0m >>>>> CHECK: DelN1: 3.38347 DelN2: 0.0157584 DelN3: 0.0222073 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch20 0.00122812 / Calculated err based on error prop 1.66531e-05 (Relative Err : 1.3559854)
+[32m[info][0m >>>>> CHECK: DelN1: 3.24836 DelN2: 0.0108635 DelN3: 0.00723128 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch21 0.00194984 / Calculated err based on error prop 2.84894e-05 (Relative Err : 1.4611118)
+[32m[info][0m >>>>> CHECK: DelN1: 2.21956 DelN2: 0.0114366 DelN3: 0.00868508 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch22 0.00179317 / Calculated err based on error prop 2.45555e-05 (Relative Err : 1.3693918)
+[32m[info][0m >>>>> CHECK: DelN1: 2.01054 DelN2: 0.0122767 DelN3: 0.00723128 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch23 0.00172509 / Calculated err based on error prop 2.40059e-05 (Relative Err : 1.3915745)
+[32m[info][0m >>>>> CHECK: DelN1: 2.03316 DelN2: 0.012671 DelN3: 0.00868508 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch24 0.00136257 / Calculated err based on error prop 2.98638e-05 (Relative Err : 2.1917295)
+[32m[info][0m >>>>> CHECK: DelN1: 4.46469 DelN2: 0.0154358 DelN3: 0.02054 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch25 0.00143915 / Calculated err based on error prop 3.5777e-05 (Relative Err : 2.4859798)
+[32m[info][0m >>>>> CHECK: DelN1: 4.64581 DelN2: 0.0171789 DelN3: 0.0253615 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch26 0.00219432 / Calculated err based on error prop 5.02998e-05 (Relative Err : 2.2922757)
+[32m[info][0m >>>>> CHECK: DelN1: 2.56829 DelN2: 0.0187557 DelN3: 0.02054 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch27 0.00240689 / Calculated err based on error prop 6.55672e-05 (Relative Err : 2.7241452)
+[32m[info][0m >>>>> CHECK: DelN1: 3.14521 DelN2: 0.0186575 DelN3: 0.0253615 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch28 0.00123366 / Calculated err based on error prop 1.7106e-05 (Relative Err : 1.3865997)
+[32m[info][0m >>>>> CHECK: DelN1: 3.42613 DelN2: 0.0105992 DelN3: 0.00792253 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch29 0.00113007 / Calculated err based on error prop 1.53999e-05 (Relative Err : 1.3627347)
+[32m[info][0m >>>>> CHECK: DelN1: 3.60358 DelN2: 0.0108409 DelN3: 0.00711081 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch30 0.00153358 / Calculated err based on error prop 2.12096e-05 (Relative Err : 1.3830177)
+[32m[info][0m >>>>> CHECK: DelN1: 2.37473 DelN2: 0.0122321 DelN3: 0.00792253 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m
+Calibration Factor Ch31 0.00157095 / Calculated err based on error prop 2.13611e-05 (Relative Err : 1.3597567)
+[32m[info][0m >>>>> CHECK: DelN1: 2.30399 DelN2: 0.0121413 DelN3: 0.00711081 [90m(analysis_CalFactor_GainFactor.cpp:162)[0m

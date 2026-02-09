@@ -1,0 +1,8 @@
+# Ignore .root files
+*.root
+
+#Ignore .swp files
+*.swap
+
+#Ignore .pdf files
+*.pdf
