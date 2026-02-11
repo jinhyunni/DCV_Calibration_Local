@@ -270,6 +270,7 @@ void SavePlotAsPdf(int calibrationOption, TH1F*& fittedHistogram, TObjArray*& f1
   int ndf = currentFit->GetNDF();
 
   l1 -> AddEntry(currentHist, currentHist->GetName(), "p");
+  l2 -> AddEntry("", savedir, "h");
   l2 -> AddEntry("", Form("Entries: %.0f", currentHist->GetEntries()), "h");
   l2 -> AddEntry("", Form("MPV: %.2f#pm%.3f", mpv_val, mpv_err), "h");
   l2 -> AddEntry("", Form("Chi2/Ndf: %.2f/%d(%.2f)", chi2, ndf, chi2/(double)ndf), "h");
@@ -290,9 +291,9 @@ void SavePlotAsPdf(int calibrationOption, TH1F*& fittedHistogram, TObjArray*& f1
 // -----------------------------------------------------------
 void analysis_MakeAndFit_DCVEne
 (
-  std::string runId         = "92",
-  int periodId              = 0, 
-  int calibrationOption     = DCVMODULEENE,
+  std::string runId         = "92b",
+  int periodId              = 2, 
+  int calibrationOption     = DCVPEAK,
   int cutOption             = IADPTIME,
   
   bool saveResAsPdf         = true,
@@ -477,9 +478,27 @@ void analysis_MakeAndFit_DCVEne
         const int histIdx = std::distance(ModWithHit.begin(), it);
 
         int main0 = currentMod.upstream.mainMod;
+        int sub0  = currentMod.upstream.subMod;
         int main1 = currentMod.downstream.mainMod;
-        int sub0= currentMod.upstream.subMod;
-        int sub1= currentMod.downstream.subMod;
+        int sub1  = currentMod.downstream.subMod;
+
+        #if 1 
+        // Handling ch swap issues with Run92b
+        // Swap channel 12 & 13 starting from period2
+        // -----------------------------------------
+        if (runIdx == ReturnRunIndex("92b") && periodId >= 2) {
+          if (TID == 0 && main0 == 12) {
+            main0 = 13;
+            sub0 = 12;
+          }
+
+          if (TID == 1 && main0 == 13) {
+            main0 = 12;
+            sub0 = 13;
+          }
+        }
+        // -----------------------------------------
+        #endif 
 
         // Get Properties
         short peak_main0  = DCVPeak[main0];
