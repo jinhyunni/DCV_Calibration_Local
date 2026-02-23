@@ -21,7 +21,6 @@ int periodIndex	= periodID;
 const double defaultThreshFactor = 0.7;
 const double adjointThreshFactor = 0.9;
 
-
 vector<int> departCsiMod_CC04=
 {
 		40, 26, 12,		13, 27, 41,
@@ -140,7 +139,7 @@ void SetCCThresh_setThresh()
 	TH1D *firstFit_CC05_Width	= (TH1D*)firstFitResult -> Get("firstFit_CC05_Width");
 	
 	//Get ADC Ene distribution
-	TFile *input1 = new TFile(Form("/Users/jinhyunpark/npl/Analysis/KOTO/DCV/calibration/data_derived/Run%s_Period%02d_CCHist%s.root",runID.c_str(), periodID, info.Data()), "read");
+	TFile *input1 = new TFile(Form("%s/InputHistos/Run%s_Period%02d_CCHist%s.root",std::getenv("DIR_SET_CC_THRESH"), runID.c_str(), periodID, info.Data()), "read");
 
 	//output
 	//====== 

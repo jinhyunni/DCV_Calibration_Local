@@ -41,7 +41,7 @@ void analysis_MakeAndFit_MainChTimePeak_Syst
     DCV_LOG_INFO(">>>>>>> READ IN: " << infile->GetName());
   }
 
-  TString infilename_iadp = Form("%S/Run%s_Period%02d_DCVSignalMain%s.root", std::getenv("DIR_CHECK_DCV_SIG"), runId.c_str(), periodId, CalConfig->infoTrigCtr.Data());
+  TString infilename_iadp = Form("%s/Run%s_Period%02d_DCVSignalMain%s.root", std::getenv("DIR_CHECK_DCV_SIG"), runId.c_str(), periodId, CalConfig->infoTrigCtr.Data());
   TFile* infileIadp = new TFile(infilename_iadp, "read");
   if (infileIadp->IsZombie()) {
     DCV_LOG_ABORT("Required input file not found: " << infilename_iadp.Data());

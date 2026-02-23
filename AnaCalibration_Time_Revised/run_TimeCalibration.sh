@@ -10,15 +10,16 @@ trap cleanup SIGINT
 
 # Configurations
 
-runarray=("91" "92" "92b" "93")
+#runarray=("91" "92" "92b" "93")
+runarray=("91")
 saveTcTxt=1
 
 for run in ${runarray[@]}; do
-  for ((period=0;period<=15;period++))
+  for ((period=0;period<=0;period++))
   do 
     runId="$run"
-    #root -l -b -q "analysis_Make_TimePeakCorr.cpp(\"${runId}\", ${period})"
-    #root -l -b -q "analysis_MakeAndFit_MainChTimePeak_Syst.cpp(\"${runId}\", ${period})"
+    root -l -b -q "analysis_Make_TimePeakCorr.cpp(\"${runId}\", ${period})"
+    root -l -b -q "analysis_MakeAndFit_MainChTimePeak_Syst.cpp(\"${runId}\", ${period})"
     root -l -b -q "analysis_Make_TimeCalibration_Syst.cpp(\"${runId}\", ${period}, ${saveTcTxt})"
   done
 done

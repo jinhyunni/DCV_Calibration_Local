@@ -36,7 +36,7 @@ void analysis_Make_TimePeakCorr
   }
 
 	// Input file
-	TString InputFileName = Form("%s/Run%s_Period%02d_trackMapping_ttree%s.root", std::getenv("DIR_COSMIC_TRACKED_FILE"), InputDirName.Data(), runId.c_str(), periodId, CalConfig->infoTrigCtr.Data());
+	TString InputFileName = Form("%s/Run%s_Period%02d_trackMapping_ttree%s.root", std::getenv("DIR_COSMIC_TRACKED_FILE"), runId.c_str(), periodId, CalConfig->infoTrigCtr.Data());
   TFile* Input = nullptr;
   TTree* Tin = nullptr;
 
