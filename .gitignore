@@ -10,5 +10,10 @@
 #Ignore .txt files
 *.txt
 
+#Ignore .DSStore
+.DS_Store
+
 #Share all the files related to MC
-!./AnaCalibration_Ene_Revised/Run91_Period16_Nx/
+!AnaCalibration_Ene_Revised/
+!AnaCalibration_Ene_Revised/Run91_Period16_Nx/
+!AnaCalibration_Ene_Revised/Run91_Period16_Nx/**
