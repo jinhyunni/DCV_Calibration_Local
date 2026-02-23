@@ -9,3 +9,6 @@
 
 #Ignore .txt files
 *.txt
+
+#Share all the files related to MC
+!./AnaCalibration_Ene_Revised/Run91_Period16_Nx/
